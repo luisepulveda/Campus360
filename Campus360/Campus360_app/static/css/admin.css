@@ -1,0 +1,124 @@
+<style>
+    /* Cambiar el color de fondo del encabezado */
+    h1 {
+        background-color: #0a4075;
+        padding: 10px;
+    }
+
+    /* Estilo para los párrafos */
+    p {
+        font-size: 20px;
+        line-height: 2.0;
+    }
+
+
+    /* Restablecer estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Estilos para el cuerpo de la página */
+  body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para el título de la página */
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los subtítulos */
+  h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para las listas sin viñetas */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  
+  /* Estilos para las secciones */
+  .section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para formularios */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para etiquetas de formulario */
+  label {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para botones */
+  button {
+    padding: 10px 15px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para tablas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para encabezados de tabla */
+  th {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para celdas de tabla */
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  

@@ -1,0 +1,35 @@
+body {
+    padding-top: 0;
+  }
+  
+  .nav-pills .nav-link {
+    color: white;
+  }
+  
+  .nav-pills .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  #viewerCanvas {
+    margin-top: 2rem;
+  }
+  /* Estilos para los botones */
+.mt-3 {
+    margin-top: 20px; /* Espacio superior */
+    text-align: center; /* Centrar horizontalmente */
+  }
+  
+  .mt-3 button {
+    margin-right: 10px; /* Espacio entre botones */
+    padding: 8px 12px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador */
+  }
+  
+  .mt-3 button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  

@@ -1,0 +1,93 @@
+/* Estilos para el encabezado */
+.header {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/fondo4.jpg');
+
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+/* Estilos para los elementos de lista */
+/* Corregido: la propiedad "color-scheme" no existe en CSS */
+/* Se cambió a "color" para definir el color del texto de los elementos de lista */
+li {
+  color: whitesmoke;
+}
+
+.carousel-item {
+  max-height: 39rem; /* Altura máxima para todas las imágenes del carrusel */
+  overflow: hidden; /* Para recortar cualquier imagen que exceda el tamaño máximo */
+}
+
+
+
+.carousel-item img {
+  height: auto; /* Establece la altura deseada para todas las imágenes */
+  width: auto; /* Deja que el ancho se ajuste automáticamente para mantener la proporción */
+}
+/* Estilos para la sección de introducción */
+#intro {
+  background-color: #515358;
+  color: yellow;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+/*cambios*/
+
+#servicios-fila-1, #servicios-fila-2 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Estilo para la sección de servicios */
+#servicios {
+  padding: 40px 0;
+}
+
+/* Contenedores de filas */
+#servicios-fila-1, #servicios-fila-2 {
+  width: 75%;
+  margin: 0 auto 50px auto;
+}
+
+/* Estilo para cada servicio */
+.icono-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes */
+.img-servicio {
+  width: 180px;
+  height: 160px;
+  object-fit: cover;
+  border-color: #000;
+}
+
+#cont{
+  justify-content: flex-start;
+  background-color: #a2b8f0;
+  padding-top: 5rem;
+    text-align: center;
+
+  
+
+
+}

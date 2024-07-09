@@ -1,0 +1,13 @@
+p {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+}
+
+p.with-eight {
+  text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+p {
+  background: rgba(33, 33, 33, 0.9);
+}

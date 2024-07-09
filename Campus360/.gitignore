@@ -1,0 +1,34 @@
+# Archivos de configuración local
+/configuracion_local.txt
+/configuracion_local.json
+
+# Archivos con secretos
+/secret_key.txt
+/credentials.json
+
+# Directorios de entorno virtual
+/venv/
+/env/
+
+# Dependencias instaladas
+/lib/
+/include/
+/bin/
+
+
+# Archivos generados automáticamente
+/staticfiles/
+/media/
+
+# Archivos de caché y compilados
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Archivos específicos de IDE
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
